@@ -230,7 +230,7 @@
         <!--Navigation Controller-->
         <scene sceneID="liR-WP-Je9">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Czb-9Z-lZI" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="FeedNavigationController" automaticallyAdjustsScrollViewInsets="NO" id="Czb-9Z-lZI" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="EHR-9d-BvZ">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
