@@ -67,6 +67,11 @@
                         </prototypes>
                     </tableView>
                     <navigationItem key="navigationItem" id="gEY-2g-1Kd">
+                        <barButtonItem key="leftBarButtonItem" title="Logout" id="mxX-Ae-yVN">
+                            <connections>
+                                <action selector="onLogoutButton:" destination="yOD-hD-pHJ" id="qj6-Pp-dhG"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="+" image="insta_camera_btn" id="XZN-Lx-Abf">
                             <connections>
                                 <segue destination="ViA-U0-ZF8" kind="presentation" modalPresentationStyle="fullScreen" id="2g9-Pv-MXg"/>
@@ -141,7 +146,7 @@
         <!--Login View Controller-->
         <scene sceneID="YbU-rO-z9w">
             <objects>
-                <viewController id="rtY-gc-mGd" customClass="LoginViewController" customModule="Parstagram" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginViewController" id="rtY-gc-mGd" customClass="LoginViewController" customModule="Parstagram" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KRT-Dm-nAB">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
