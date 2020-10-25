@@ -100,6 +100,28 @@
                                     <outlet property="nameLabel" destination="8wp-ck-pIL" id="U5V-jg-ECR"/>
                                 </connections>
                             </tableViewCell>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="AddCommentCell" id="d78-Az-Oc4" userLabel="AddCommentCell">
+                                <rect key="frame" x="0.0" y="506" width="414" height="37.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="d78-Az-Oc4" id="UKz-fO-by8">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="37.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add a comment..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Ku-ni-AHL">
+                                            <rect key="frame" x="16" y="8" width="390" height="21.5"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="2Ku-ni-AHL" secondAttribute="trailing" constant="8" id="4fo-lu-B0e"/>
+                                        <constraint firstAttribute="bottom" secondItem="2Ku-ni-AHL" secondAttribute="bottom" constant="8" id="Mwv-2t-InH"/>
+                                        <constraint firstItem="2Ku-ni-AHL" firstAttribute="leading" secondItem="UKz-fO-by8" secondAttribute="leading" constant="16" id="NVv-3X-p71"/>
+                                        <constraint firstItem="2Ku-ni-AHL" firstAttribute="top" secondItem="UKz-fO-by8" secondAttribute="top" constant="8" id="xkw-mj-Gyj"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                            </tableViewCell>
                         </prototypes>
                     </tableView>
                     <navigationItem key="navigationItem" id="gEY-2g-1Kd">
